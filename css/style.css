@@ -1,0 +1,167 @@
+*{
+     padding:0;
+     margin:0;
+}
+a{
+     text-decoration: none;
+     color:#000;
+}
+a:hover{
+     color:black;
+}
+ul,ol{
+     list-style: none;
+     padding:0;
+     margin:0;
+}
+body{
+     background-color: #2a2a2e;
+}
+.clr{
+     clear:both;
+}
+
+/* ========================
+NAVBAR start
+========================== */
+
+#navbar{
+     margin-bottom:100px;
+}
+.dropdown__nav {
+	width: 64%;
+	height: 70px;
+	
+	background-color: #fff5ba;
+	position: relative;
+     top:50px;
+     border-radius:10px;
+}
+.menu ul li{
+     display: inline-block;
+
+}
+.menu ul li a{
+     padding:0 15px;
+     line-height: 70px;
+     font-family: 'Andada Pro', serif;
+     font-size: 16px;
+     color:#222;
+}
+
+
+.logo h1{
+     font-family: 'Knewave', cursive;
+     font-weight:400;
+     font-size: 30px;
+     color:#333;
+     position: absolute;
+     top:50%;
+     left:30px;
+     transform: translateY(-50%);
+     
+}
+
+/* ========================
+NAVBAR end
+========================== */
+
+
+
+
+#main__bookmark{
+     margin-top:40px;
+}
+.bk__square{
+     margin:15px 11px;
+     padding:15px 65px 15px 20px;
+     border-radius: 8px;
+     background-color: darkkhaki;
+     width:23%;
+     position: relative;
+     float:left;
+     transition: all 0.3s;
+     
+}
+.bkcustom__width{
+     width:80%;
+}
+
+.bk__square a h2{
+     font-size: 20px;
+     font-family: 'Andada Pro', serif;
+     text-transform: capitalize;
+}
+.bk__square a{
+     margin-bottom:13px;
+     display: block;
+}
+.bk__group {
+	position: absolute;
+     bottom:-35px;
+     left:15px;
+     
+}
+.bk__group a{
+     
+     padding:8px;
+     border-radius:8px;
+     background-color: rgb(219, 208, 159);
+     
+}
+.bk_sq--two{
+     background-color: tomato;
+}
+.bk_sq--three{
+     background-color: #FFF475;
+}
+.bk_sq--four{
+     background-color: #6EB6FF;
+}
+.bk_sq--five{
+     background-color: #B28DFF;
+}
+.bk_sq--six{
+     background-color: #D9FFD0;
+}
+.bk_sq--seven{
+     background: #BDFCC3;
+}
+.bk_sq--eight{
+     background: #FFBEBC;
+}
+.bk_sq--nine{
+     background: #FF6961;
+}
+
+.link__logo{
+     position: absolute;
+     top:10px;
+     right:10px;
+     width:40px;
+}
+.showlink{
+     width:170px;
+     word-wrap: break-word;
+}
+.showlink a{
+     color:blue;
+     font-style: italic;
+     cursor:pointer;
+     transition: all 0.3s;
+}
+
+/* ========================
+Single__hash--page
+==========================*/
+
+#hashtags_all{
+     margin-top:40px;
+}
+
+.my__hashtags ul li a h2{
+     font-size: 20px;
+     font-family: 'Merriweather', serif;
+     
+     color:#eee;
+}
